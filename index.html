@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forest protection game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/js.js"></script>
+    <meta name="description" content="Increase resource management with this forest protection game based on UN goal 15, life on land.">
+    <meta name="keywords" content="forest,protection,UNgoals,LifeOnLand">
+  </head>
+
+  <body>
+
+<div class="navBar">
+  <img id="topLeftImg" src="imgs/globalG.png" alt="Global goals">
+  <ul>
+    <li><a href="index.html">Game</a></li>
+    <li><a href="parents-teachers.html">Parents & Teachers</a></li>
+  </ul>
+  <img id="topRightImg" src="imgs/lifeOnLand.png" alt="Life on Land">
+
+</div>
+
+<div class="startScreenDIV">
+  <p id="idTimer" hidden=true>10:00</p>
+  <img id="idTruck" src="assets/truck-up.gif" alt="Truck Deforestation" hidden=true>
+  <img id="idRanger" src="assets/ranger-idle.gif" alt="Ranger" hidden=true>
+  <img id="starIMGId" src="imgs/startScreen.jpg" alt="Healthy forest">
+  <progress id="idHealth" value="100" max="100" hidden = true></progress>
+  <button class="startButton" onclick="instructions()">Start</button>
+  <button class="startButton2" onclick="startGameButton()" hidden=true>Start</button>
+</div>
+  </body>
+</html>
